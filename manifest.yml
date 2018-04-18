@@ -1,0 +1,10 @@
+---
+applications:
+- name: demo_app
+  instances: 1
+  env:
+    spring.jpa.hibernate.ddl-auto: update
+    spring_jpa_hibernate_ddl-auto: update
+  services:
+    - redis
+    - mysql
